@@ -15,7 +15,7 @@
 - 依然可能有小问题，但总体比之前好很多，欢迎大家使用并提出建议。
 
 ## 介绍
-本模板是南京邮电大学本科生(理工艺教类)毕业设计的Latex模板，该模板由[`NJUPThesis-Bachelor`](https://github.com/imguozr/NJUPThesis-Bachelor) 以及[`lemoxiao`](https://github.com/lemoxiao)修改过的[`NJUPThesis-Bachelor`](https://github.com/lemoxiao/NJUPThesis-Scholar)做了大量的修改工作和完善工作。
+本模板是南京邮电大学本科生(理工艺教类)毕业设计的Latex模板，该模板由[`NJUPThesis-Bachelor`](https://github.com/imguozr/NJUPThesis-Bachelor) 以及[`lemoxiao`](https://github.com/lemoxiao)修改过的[`NJUPThesis-Bachelor`](https://github.com/lemoxiao/NJUPThesis-Scholar)演化而来，并做了大量的修改工作和完善工作。
 
 ## 核心特征
 
