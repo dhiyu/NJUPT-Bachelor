@@ -56,9 +56,8 @@
 
 ## 字数统计 摘自：[`NJUPThesis-Bachelor`](https://github.com/imguozr/NJUPThesis-Bachelor)
 
-1. `Overleaf`平台中可以直接在菜单中点击 `Word Count` 进行统计。
-2. 在命令行中使用 `texcount your-tex-file-name.tex` 命令进行统计。
-3. 对生成的 PDF 文件进行统计。
+1. 在命令行中使用 `texcount your-tex-file-name.tex` 命令进行统计。
+2. 对生成的 PDF 文件进行统计。
 
 ## 已知问题
 
