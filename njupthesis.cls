@@ -181,15 +181,17 @@
 \renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
 
 % 图标题和表格标题格式设定 *****要求章节编号+序号******
-\renewcommand {\thetable} {\arabic{chapter}.\arabic{table}\chinesespace\chinesespace }
-\renewcommand {\thefigure} {\arabic{chapter}.\arabic{figure}\chinesespace\chinesespace }
+\renewcommand {\thetable} {\arabic{chapter}.\arabic{table}}
+\renewcommand {\thefigure} {\arabic{chapter}.\arabic{figure}}
 
 % 图、表标题格式设置
 \captionsetup{format=hang}
-\captionsetup{width=\textwidth - 42pt}
+\DeclareCaptionLabelSeparator{custom}{\chinesespace\chinesespace}
+\captionsetup{width=\textwidth - 42pt,labelsep=custom}
 % 图注下方空行
 \captionsetup[figure]{aboveskip=0pt,belowskip=6pt}
 \captionsetup[table]{aboveskip=0pt,belowskip=0pt}
+
 
 \setlength{\extrarowheight}{5pt}
 \setlength{\subfigcapskip}{0pt}
