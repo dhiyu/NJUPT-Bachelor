@@ -39,7 +39,8 @@
 
 1. 感觉毕竟是毕业论文，用overleaf显得有些草率，还是建议在本地编辑和编译。
 2. 对于 `Windows` 系统，直接安装 `TeX Live` ，编辑器推荐使用`TeXstudio`。
-3. `MacOS`我手头没有，也无法进行测试，欢迎大家测试反馈，理论上没有问题。
+3. `MacOS`经过[`Leo Y Chen`](https://github.com/xsro)的测试基本无问题且由其更新了字体名，后续欢迎大家测试反馈。
+4. [`Leo Y Chen`](https://github.com/xsro)提供了vscode的latex编译配置文件，存放在[`.vscode/`]文件夹中，由于本人暂不使用[`vscode`]，大家自行测试。
 
 ## 编译过程
 
