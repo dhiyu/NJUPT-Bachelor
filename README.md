@@ -71,3 +71,11 @@
 2021年我用这个模板撰写了我自己的毕业论文，没有任何问题，效果不错。我感觉每年官方的Word模板变动一般不会很大，所以大家修修补补还是可以用的。
 
 如果觉得好用，你可以在致谢部分留下**本论文采用基于 LaTeX 的南京邮电大学本科论文模版编写**，欢迎附上本GitHub repo的链接。
+
+## 贡献者名单
+- [`dhiyu`](https://github.com/dhiyu)(Owner)
+- [`Leo Y Chen`](https://github.com/xsro)(Contributer)
+
+## 参考项目
+- [`imguozr`](https://github.com/imguozr)的[`NJUPThesis-Bachelor`](https://github.com/imguozr/NJUPThesis-Bachelor)
+- [`lemoxiao`](https://github.com/lemoxiao)的[`NJUPThesis-Bachelor`](https://github.com/lemoxiao/NJUPThesis-Scholar)
