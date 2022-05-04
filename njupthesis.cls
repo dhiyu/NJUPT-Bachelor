@@ -33,10 +33,10 @@
   \newCJKfontfamily{\kaiti}{KaiTi}
 \else
 	\ifmacosx
-    \setallmainfonts{Times New Roman}
-    \setCJKmainfont[AutoFakeBold=true]{Songti SC}
-    \newCJKfontfamily{\heiti}{Heiti SC}
-    \newCJKfontfamily{\kaiti}{Kaiti SC}
+	  \setallmainfonts{Times New Roman}
+	  \setCJKmainfont[AutoFakeBold=true]{SimSun}
+	  \newCJKfontfamily{\heiti}{SimHei}
+	  \newCJKfontfamily{\kaiti}{KaiTi}
 	\else
 	  \setCJKmainfont[AutoFakeBold=true]{SimSun}
 	  \newCJKfontfamily{\heiti}{SimHei}
