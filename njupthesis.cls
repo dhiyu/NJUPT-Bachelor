@@ -248,17 +248,17 @@
 % 四号黑体 14pt
 \titleformat{\section}[block]
   {\fontsize{14pt}{14pt}\selectfont\heiti}
-  {\thesection}{0pt}{}
+  {\thesection}{4pt}{}
 
 % 四号黑体 14pt
 \titleformat{\subsection}[block]
   {\fontsize{14pt}{14pt}\selectfont\heiti}
-  {\thesubsection}{0pt}{}
+  {\thesubsection}{4pt}{}
 
 % 小四号黑体 12pt（不推荐，要求中禁止使用）
 \titleformat{\subsubsection}[block]
   {\fontsize{12pt}{12pt}\selectfont\heiti}
-  {\thesubsubsection}{6pt}{}
+  {\thesubsubsection}{4pt}{}
 
 % 下面的命令用于调节标题与左，上，下文，段落之间间距
 \titlespacing{\chapter}{0pt}{6pt}{6pt}
