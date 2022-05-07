@@ -345,7 +345,7 @@
     \begin{minipage}[t]{48pt}
       \noindent{\heiti{关键词\chinesecolon }}
     \end{minipage}
-    \begin{minipage}[t]{\linewidth - 48pt}
+    \begin{minipage}[t]{0.8\linewidth - 48pt}
       #1
     \end{minipage}
 }
@@ -364,7 +364,7 @@
       \noindent\textbf{Keywords:}
     \end{minipage}
     \begin{minipage}[t]{
-      \linewidth - 2.1cm}
+      0.8\linewidth - 2.1cm}
         #1
     \end{minipage}
 }
@@ -509,7 +509,10 @@
 \end{center}
 
 \begin{spacing}{2.0}
-本人郑重声明：所提交的毕业设计（论文），是本人在导师指导下，独立进行研究工作所取得的成果。除文中已注明引用的内容外，本毕业设计（论文）不包含任何其他个人或集体已经发表或撰写过的作品成果。对本研究做出过重要贡献的个人和集体，均已在文中以明确方式标明并表示了谢意。\\ \\ 
+本人郑重声明：所提交的毕业设计（论文），是本人在导师指导下，独立进行研究工作所取得的成果。
+除文中已注明引用的内容外，本毕业设计（论文）不包含任何其他个人或集体已经发表或撰写过的作品成果。
+对本研究做出过重要贡献的个人和集体，均已在文中以明确方式标明并表示了谢意。
+\vspace{3cm}
 
 \hspace*{7cm} 论文作者签名：
 
