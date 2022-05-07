@@ -73,7 +73,7 @@
 \RequirePackage{fancyvrb}
 \RequirePackage{fancyhdr}
 \RequirePackage{setspace}
-\RequirePackage{cite}
+% \RequirePackage{cite}
 \RequirePackage[normalem]{ulem}
 \RequirePackage{enumitem}
 \RequirePackage{algorithm2e}
@@ -343,7 +343,7 @@
   \vspace{\baselineskip}
   \noindent
     \begin{minipage}[t]{48pt}
-      \noindent\textbf{\heiti{关键词\chinesecolon }}
+      \noindent{\heiti{关键词\chinesecolon }}
     \end{minipage}
     \begin{minipage}[t]{\linewidth - 48pt}
       #1
