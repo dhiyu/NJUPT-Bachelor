@@ -11,6 +11,10 @@
 % 定制标题格式的包 五号
 \RequirePackage[font={stretch=1.25, small}, labelsep=none, skip=0pt]{caption}
 
+%连字符设置
+\hyphenpenalty=5000
+\tolerance=1000
+
 \RequirePackage{array}
 \RequirePackage{setspace}
 \RequirePackage{multirow}
@@ -668,6 +672,8 @@
   \setlength{\abovedisplayskip}{8pt}
   \setlength{\belowdisplayskip}{8pt}
 }
+
+
 
 
 \endinput
