@@ -340,6 +340,7 @@
     \pdfbookmark{中文摘要}{chineseabstract}
     \chapter*{\fontsize{16pt}{16pt}\selectfont{摘\chinesespace\chinesespace 要}}
     \thispagestyle{empty}
+    \vspace{1cm}
 }
 
 % 中文关键字
@@ -564,6 +565,7 @@
 	\addcontentsline{toc}{chapter}{结束语}
 	\markboth{结束语}{结束语}
 	\thispagestyle{fancy}
+  \vspace{1cm}
 }
 
 % 加载参考文献
@@ -594,6 +596,7 @@
   \addcontentsline{toc}{chapter}{致谢}
   \markboth{致谢}{致谢}
   \thispagestyle{fancy}
+  \vspace{1cm}
 }
 
 \newcommand{\thesischapterexordium}{
