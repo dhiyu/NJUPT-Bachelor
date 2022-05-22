@@ -72,4 +72,8 @@
     }
   ],
   "latex-workshop.latex.recipe.default": "xe->bib->xe->xe",
+  "explorer.fileNesting.enabled":true,
+  "explorer.fileNesting.patterns":{
+    "*.tex": "${basename}.*"
+  }
 }

@@ -11,6 +11,10 @@
 % 定制标题格式的包 五号
 \RequirePackage[font={stretch=1.25, small}, labelsep=none, skip=0pt]{caption}
 
+%连字符设置
+\hyphenpenalty=5000
+\tolerance=1000
+
 \RequirePackage{array}
 \RequirePackage{setspace}
 \RequirePackage{multirow}
@@ -73,7 +77,7 @@
 \RequirePackage{fancyvrb}
 \RequirePackage{fancyhdr}
 \RequirePackage{setspace}
-\RequirePackage{cite}
+% \RequirePackage{cite}
 \RequirePackage[normalem]{ulem}
 \RequirePackage{enumitem}
 \RequirePackage{algorithm2e}
@@ -248,17 +252,17 @@
 % 四号黑体 14pt
 \titleformat{\section}[block]
   {\fontsize{14pt}{14pt}\selectfont\heiti}
-  {\thesection}{0pt}{}
+  {\thesection}{4pt}{}
 
 % 四号黑体 14pt
 \titleformat{\subsection}[block]
   {\fontsize{14pt}{14pt}\selectfont\heiti}
-  {\thesubsection}{0pt}{}
+  {\thesubsection}{4pt}{}
 
 % 小四号黑体 12pt（不推荐，要求中禁止使用）
 \titleformat{\subsubsection}[block]
   {\fontsize{12pt}{12pt}\selectfont\heiti}
-  {\thesubsubsection}{6pt}{}
+  {\thesubsubsection}{4pt}{}
 
 % 下面的命令用于调节标题与左，上，下文，段落之间间距
 \titlespacing{\chapter}{0pt}{6pt}{6pt}
@@ -336,6 +340,7 @@
     \pdfbookmark{中文摘要}{chineseabstract}
     \chapter*{\fontsize{16pt}{16pt}\selectfont{摘\chinesespace\chinesespace 要}}
     \thispagestyle{empty}
+    \vspace{1cm}
 }
 
 % 中文关键字
@@ -343,9 +348,9 @@
   \vspace{\baselineskip}
   \noindent
     \begin{minipage}[t]{48pt}
-      \noindent\textbf{\heiti{关键词\chinesecolon }}
+      \noindent{\heiti{关键词\chinesecolon }}
     \end{minipage}
-    \begin{minipage}[t]{\linewidth - 48pt}
+    \begin{minipage}[t]{0.8\linewidth - 48pt}
       #1
     \end{minipage}
 }
@@ -364,7 +369,7 @@
       \noindent\textbf{Keywords:}
     \end{minipage}
     \begin{minipage}[t]{
-      \linewidth - 2.1cm}
+      0.8\linewidth - 2.1cm}
         #1
     \end{minipage}
 }
@@ -509,7 +514,10 @@
 \end{center}
 
 \begin{spacing}{2.0}
-本人郑重声明：所提交的毕业设计（论文），是本人在导师指导下，独立进行研究工作所取得的成果。除文中已注明引用的内容外，本毕业设计（论文）不包含任何其他个人或集体已经发表或撰写过的作品成果。对本研究做出过重要贡献的个人和集体，均已在文中以明确方式标明并表示了谢意。\\ \\ 
+本人郑重声明：所提交的毕业设计（论文），是本人在导师指导下，独立进行研究工作所取得的成果。
+除文中已注明引用的内容外，本毕业设计（论文）不包含任何其他个人或集体已经发表或撰写过的作品成果。
+对本研究做出过重要贡献的个人和集体，均已在文中以明确方式标明并表示了谢意。
+\vspace{3cm}
 
 \hspace*{7cm} 论文作者签名：
 
@@ -557,6 +565,7 @@
 	\addcontentsline{toc}{chapter}{结束语}
 	\markboth{结束语}{结束语}
 	\thispagestyle{fancy}
+  \vspace{1cm}
 }
 
 % 加载参考文献
@@ -587,6 +596,7 @@
   \addcontentsline{toc}{chapter}{致谢}
   \markboth{致谢}{致谢}
   \thispagestyle{fancy}
+  \vspace{1cm}
 }
 
 \newcommand{\thesischapterexordium}{
@@ -665,6 +675,8 @@
   \setlength{\abovedisplayskip}{8pt}
   \setlength{\belowdisplayskip}{8pt}
 }
+
+
 
 
 \endinput

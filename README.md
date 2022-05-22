@@ -63,6 +63,7 @@
 ## 已知问题
 
 1. ~~目前来看唯一的缺陷可能是当时编写时比较急促，自身水平又比较差，在一些标题和题注的格式上，为了和官方Word模板几乎相同，我在里面加了一些空格或是间隔，本身是不推荐大家这样修改模板的，会造成在正文文段中引用时也出现空格和间隔。~~目前此问题已由[`Leo Y Chen`](https://github.com/xsro)解决。暂时无问题，欢迎大家反馈。
+2. everypage的功能已经被官方支持所以不再需要这个包，所以这个包会警告。参见[ref](https://stackoverflow.com/questions/64921954/how-to-solve-latex-package-warning-for-everypage)
 
 ## Q&A
 
